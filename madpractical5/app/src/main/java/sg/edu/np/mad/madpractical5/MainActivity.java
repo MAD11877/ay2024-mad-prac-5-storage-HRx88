@@ -27,7 +27,7 @@ public class MainActivity extends AppCompatActivity {
             return insets;
         });
 
-        MyDBHandler dbHandler = new MyDBHandler(this, null, null, 1);
+        DatabaseHandler dbHandler = new DatabaseHandler(this, null, null, 1);
 
         //User user = new User("John Doe", "MAD Developer", 1, false);
 
